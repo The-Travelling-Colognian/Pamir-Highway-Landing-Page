@@ -111,3 +111,35 @@ button:hover {
   padding: 15px;
   text-align: center;
 }
+
+@media (max-width: 400px) {
+  h2,
+  h3 {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p,
+  li {
+    font-size: 18px;
+  }
+
+  .learn-more {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+}
