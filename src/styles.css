@@ -112,6 +112,11 @@ button:hover {
   text-align: center;
 }
 
+.footer a {
+  text-decoration: none;
+  color: #00c2c2;
+}
+
 @media (min-width: 280px) and (max-width: 400px) {
   .container,
   .container-md,
