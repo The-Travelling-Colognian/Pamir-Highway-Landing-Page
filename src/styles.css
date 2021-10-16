@@ -112,18 +112,24 @@ button:hover {
   text-align: center;
 }
 
-@media (max-width: 400px) {
+@media (min-width: 280px) and (max-width: 400px) {
+  .container,
+  .container-md,
+  .container-sm {
+    margin: 0 auto;
+  }
+
   h2,
   h3 {
     text-align: center;
   }
 
   h1 {
-    font-size: 30px;
+    font-size: 22px;
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   h3 {
@@ -132,51 +138,23 @@ button:hover {
 
   p,
   li {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .learn-more {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   button {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 1024px) {
-  h1,
-  h2,
-  h3 {
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 40px;
-  }
-
-  h2 {
-    font-size: 32px;
-  }
-
-  h3 {
-    font-size: 24px;
-  }
-
-  p,
-  li {
-    font-size: 22px;
-  }
-
-  .learn-more {
-    font-size: 24px;
-  }
-
-  button {
-    font-size: 24px;
+    font-size: 14px;
   }
 
   .footer {
-    font-size: 18px;
+    font-size: 13px;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: #00c2c2;
   }
 }
